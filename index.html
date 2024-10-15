@@ -1,10 +1,178 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-  </body>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rayane Kurrimboccus</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-center text-light">
+				<div class="hero-bg"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
+				</div>
+                <div class="container-sm">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Hey!<br> I'm Rayane, I make iOS apps</h1>
+	                        <p class="hero-paragraph">A question? A suggestion? Please reach out directly :)</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" href="mailto:parental.volume.control@gmail.com">Contact</a>
+							</div>
+						</div>
+						<div class="mockup-container">
+							<div class="mockup-bg">
+								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
+							</div>
+							<img class="device-mockup" src="src/images/appstore.png" alt="Rayane Kurrimboccus on AppStore">
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="features-extended section">
+                <div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="src/images/volume-control.png" alt="iPhone Feature 01">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Volume Blocker</h3>
+									<p class="m-0">No more Baby Shark at full blast! Discover a peaceful home by limiting your kid's video volume. Set a volume limit for your child's iPad/iPhone and unlock a quiet world!</p>
+									<div class="cta-cta download-app">
+										<a class="button button-primary button-wide-mobile" href="https://apps.apple.com/us/app/volume-blocker-and-limiter/id6475981399">Download</a>
+									</div>	
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="src/images/antispam.png" alt="iPhone Feature 02">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">AntiSpam - Call Blocker</h3>
+									<p class="m-0">STOP to spam calls and call centers. Identify and block more than 12 millions numbers at once by using official and real live data from ARCEP. The only working AntiSpam!									</p>
+									<div class="cta-cta download-app">
+										<a class="button button-primary button-wide-mobile" href="https://apps.apple.com/us/app/antispam-call-blocker/id6504856330">Download</a>
+									</div>	
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="src/images/authenticator.png" alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Authenticator app - OTP & 2FA</h3>
+									<p class="m-0">The only Authenticator app you need! Securely store your tokens, generate codes, automatically sync & backup your accounts in iCloud, using end-to-end strong encryption!									</p>
+									<div class="cta-cta download-app">
+										<a class="button button-primary button-wide-mobile" href="https://apps.apple.com/us/app/authenticator-app-otp-2fa/id6502824774">Download</a>
+									</div>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Coming soon.</h3>
+									<p class="m-0">New apps are coming soon...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </section>
+        </main>
+
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top">
+				<section class="cta section text-light">
+					<div class="container-sm">
+						<div class="cta-inner section-inner">
+							<div class="cta-header text-center">
+								<h2 class="section-title mt-0">Do you want YOUR app?</h2>
+								<p class="section-paragraph">I can also develop an app for your needs. Reach out and I'll answer quickly.</p>
+								<div class="cta-cta">
+									<a class="button button-primary button-wide-mobile" href="mailto:parental.volume.control@gmail.com">Get in touch</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+								<img src="dist/images/logo.svg" alt="Venus logo">
+						</div>
+						<!-- <ul class="footer-links list-reset">
+							<li>
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a href="#">About us</a>
+							</li>
+							<li>
+								<a href="#">FAQ's</a>
+							</li>
+							<li>
+								<a href="#">Support</a>
+							</li>
+						</ul> -->
+						<ul class="footer-social-links list-reset">
+							<li>
+								<a href="https://x.com/RykuApps">
+									<span class="screen-reader-text">Twitter</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<div class="footer-copyright">&copy; 2024 Rayane Kurrimboccus, all rights reserved</div>
+					</div>
+				</div>
+			</div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
 </html>
